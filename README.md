@@ -3,7 +3,7 @@
 
 Objective
 
-The objective of this project is to create a basic honeypot using Python. A honeypot is a security mechanism that acts as a decoy to attract attackers, detect intrusion attempts, and gather information about potential threats. This simple honeypot will listen on a specific port, log details of any incoming connections, and respond to the attacker, simulating a vulnerable service.
+The objective of this project is to create a basic honeypot. A honeypot is a security mechanism that acts as a decoy to attract attackers, detect intrusion attempts, and gather information about potential threats. This honeypot will listen on a specific port, log details of any incoming connections, and respond to the attacker, simulating a vulnerable service.
 
 
 Skills Learned
@@ -11,12 +11,12 @@ Skills Learned
 - ' Networking Basics '- Understanding how to use sockets in Python to establish network connections.
 - ' Security Concepts '- Learning about honeypots and their role in cybersecurity for detecting and analyzing threats.
 - ' Python Programming '- Using Python's standard libraries to create a network-based application, handle connections, and log data.
-- ' File Handling '- Writing logs to a file for later analysis.
+- ' File Handling '- Write logs for a file for later analysis.
 
 
 Tools Used
 
-- ' Python '- The programming language used to develop the honeypot.
+- ' Python 'is the programming language used to develop the honeypot.
 - ' Socket Library '- A Python library for low-level networking interface to create and manage connections.
 - ' Datetime Library '- A Python library to manage and format date and time data, used for logging.
 - ' Text Editor/IDE'-  Any code editor like VS Code, PyCharm, or even a simple text editor to write and execute the Python script.
@@ -58,7 +58,7 @@ Ref 3 - Logging Function
 ![Logging Function](https://github.com/user-attachments/assets/42fbac13-9041-4d78-bdd1-a19ed69b5ac3)
 
 
-- ' log_connection(client_ip, client_port) '- This function logs the IP address and port of the connecting client along with the current timestamp. It appends this information to the honeypot_log.txt file and also prints it to the console for real-time monitoring.
+- ' log_connection(client_ip, client_port) '- This function logs the IP address and port of the connecting client along with the current timestamp. It appends this information to the honeypot_log.txt file and prints it to the console for real-time monitoring.
 
 
 
@@ -72,7 +72,7 @@ ref 4 - Handling Incoming Connections
 
 
 
-- ' handle_connection(conn, addr) '- This function is responsible for managing the interaction with each incoming connection. It logs the connection using log_connection, sends a response ("Welcome to the honeypot!\n") to the client, and then closes the connection.
+- ' handle_connection(conn, addr) '- This function manages the interaction with each incoming connection. It logs the connection using log_connection, sends a response ("Welcome to the honeypot!\n") to the client, and then closes the connection.
 
 
 
