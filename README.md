@@ -19,7 +19,7 @@ Tools Used
 - ' Python 'is the programming language used to develop the honeypot.
 - ' Socket Library '- A Python library for low-level networking interface to create and manage connections.
 - ' Datetime Library '- A Python library to manage and format date and time data, used for logging.
-- ' Text Editor/IDE'-  Any code editor like VS Code, PyCharm, or even a simple text editor to write and execute the Python script.
+- ' Text Editor/IDE'- PyCharm was used to write and execute the Python script.
 
 Step-By-Step
 
